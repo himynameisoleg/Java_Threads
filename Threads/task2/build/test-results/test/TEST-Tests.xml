@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-26T21:29:45" hostname="macbeezy.hsd1.il.comcast.net" time="1.015">
+  <properties/>
+  <testcase name="testExecutors" classname="Tests" time="1.015"/>
+  <system-out><![CDATA[Hello Ioniq
+Hello Kona
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
