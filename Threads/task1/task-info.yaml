@@ -131,7 +131,7 @@ files:
       public Racer(Car c){
               this.c=c;
           }
-  - offset: 715
+  - offset: 700
     length: 0
     placeholder_text: "/* TODO \nOverride one method.  This is the task the thread\
       \ will perform... You have to determine which method this is.\nCheck the method\
@@ -169,5 +169,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 26 Mar 2021 18:36:09 UTC
+  time: Fri, 26 Mar 2021 21:30:58 UTC
 record: -1

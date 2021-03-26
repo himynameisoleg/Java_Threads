@@ -13,7 +13,7 @@ public class Racer implements Runnable {
                 if (this.c.miles == 0) {
                     long rechargeTime = (long) this.c.maxMiles;
                     Thread.sleep(rechargeTime);
-                    this.c.miles = this.c.maxMiles;
+                    this.c.charge();
                 }
                 this.c.move(1);
 
