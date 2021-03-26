@@ -12,13 +12,8 @@ public class Car {
     }
 
     public void move(double miles){
-        if (miles >= this.miles) {
-            this.odometer += miles;
-            this.miles = this.miles - miles;
-        } else {
-            this.odometer += this.miles;
-            this.miles = 0;
-        }
+       this.miles -= miles;
+       this.odometer += miles;
     }
 
     public void charge(){

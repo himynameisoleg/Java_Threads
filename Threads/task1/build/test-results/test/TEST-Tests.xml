@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-26T18:36:08" hostname="macbeezy.hsd1.il.comcast.net" time="0.798">
+  <properties/>
+  <testcase name="testCar" classname="Tests" time="0.001"/>
+  <testcase name="testRacer" classname="Tests" time="0.796"/>
+  <system-out><![CDATA[Hello Tesla
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

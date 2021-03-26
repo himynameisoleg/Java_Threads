@@ -11,7 +11,7 @@ files:
       offset: 160
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: new Racer(c1);
   - offset: 196
     length: 88
@@ -21,7 +21,7 @@ files:
       offset: 216
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: new Racer(c2);
   - offset: 196
     length: 88
@@ -33,7 +33,7 @@ files:
       offset: 256
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       new Thread(racer1).start();
             new Thread(racer2).start();
@@ -77,8 +77,8 @@ files:
 - name: src/Car.java
   visible: true
   placeholders:
-  - offset: 452
-    length: 212
+  - offset: 511
+    length: 0
     placeholder_text: "/* TODO \nmove should subtract  'miles' from the miles left\
       \ to travel and add 'miles' to the odometer. The miles to travel cannot be less\
       \ than zero. */"
@@ -87,7 +87,7 @@ files:
       offset: 460
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       this.miles = this.miles>0?this.miles - miles:0;
               this.odometer+=miles;
@@ -115,9 +115,9 @@ files:
       offset: 19
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: implements Runnable
-  - offset: 182
+  - offset: 183
     length: 0
     placeholder_text: "/* TODO \nCreate a constructor that receives a Car objec and\
       \ initializes c.*/"
@@ -126,12 +126,12 @@ files:
       offset: 204
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       public Racer(Car c){
               this.c=c;
           }
-  - offset: 278
+  - offset: 715
     length: 0
     placeholder_text: "/* TODO \nOverride one method.  This is the task the thread\
       \ will perform... You have to determine which method this is.\nCheck the method\
@@ -141,7 +141,7 @@ files:
       offset: 299
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       public void run() {
               while (c.odometer<distance)
@@ -166,5 +166,8 @@ files:
     \ You have to determine which method this is.\nCheck the method description. */\n\
     }\n"
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 26 Mar 2021 18:36:09 UTC
 record: -1
